@@ -13,6 +13,7 @@ function addAndHandle(n1: number, n2: number, cb: (num: number) => void) {
 
 printResult(add(5, 12));
 
+// this would be a function type where we are passing in 2 number params and returning a number
 let combineValues: (a: number, b: number) => number;
 
 combineValues = add;
